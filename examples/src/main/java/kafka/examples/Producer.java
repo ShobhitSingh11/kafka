@@ -68,6 +68,7 @@ public class Producer extends Thread {
 
     @Override
     public void run() {
+        //int messageKey = 0;
         int messageKey = 0;
         int recordsSent = 0;
         while (recordsSent < numRecords) {
