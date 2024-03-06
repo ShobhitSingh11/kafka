@@ -516,9 +516,9 @@ subprojects {
     // provided through the command line.
     // Local builds will still remain same as it only adds if the
     // parameter is provided.
-    if(System.getProperty("HARNESS_JAVA_AGENT")) {
-      jvmArgs += [System.getProperty("HARNESS_JAVA_AGENT")]
-    }
+    // if(System.getProperty("HARNESS_JAVA_AGENT")) {
+    //   jvmArgs += [System.getProperty("HARNESS_JAVA_AGENT")]
+    // }
 
     testLogging {
       events = userTestLoggingEvents ?: testLoggingEvents
