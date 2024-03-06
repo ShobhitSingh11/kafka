@@ -115,11 +115,11 @@ allprojects {
 
   // This makes sure that any test tasks for subprojects don't
   // fail in case the test filter does not match.
-  tasks.withType(Test) {
-    filter {
-      setFailOnNoMatchingTests(false)
-    }
-  }
+  // tasks.withType(Test) {
+  //   filter {
+  //     setFailOnNoMatchingTests(false)
+  //   }
+  // }
 
   repositories {
     mavenCentral()
