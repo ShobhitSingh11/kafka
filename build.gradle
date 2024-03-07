@@ -19,7 +19,7 @@ import org.ajoberstar.grgit.Grgit
 import java.nio.charset.StandardCharsets
 
 buildscript {
-  // rkfhhjkr4hiufrhiufrfvjb
+  // rkfhhjkr4hiufrhiufrfvjbrfrrfr
   repositories {
     mavenCentral()
   }
