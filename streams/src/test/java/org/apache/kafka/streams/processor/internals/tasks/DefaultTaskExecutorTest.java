@@ -91,7 +91,7 @@ public class DefaultTaskExecutorTest {
     @Test
     public void shouldUnassignTaskWhenRequired() throws Exception {
         taskExecutor.start();
-
+        //rf4
         verify(taskManager, timeout(VERIFICATION_TIMEOUT)).assignNextTask(taskExecutor);
         assertNotNull(taskExecutor.currentTask());
 
