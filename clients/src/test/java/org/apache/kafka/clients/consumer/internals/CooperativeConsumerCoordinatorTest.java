@@ -17,7 +17,7 @@
 package org.apache.kafka.clients.consumer.internals;
 
 import org.apache.kafka.clients.consumer.ConsumerPartitionAssignor;
-
+//erf
 public class CooperativeConsumerCoordinatorTest extends ConsumerCoordinatorTest {
     public CooperativeConsumerCoordinatorTest() {
         super(ConsumerPartitionAssignor.RebalanceProtocol.COOPERATIVE);
