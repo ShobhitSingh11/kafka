@@ -28,7 +28,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import org.junit.jupiter.api.Test;
-
+//rfrefref
 import static org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.DEFAULT_GENERATION;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
