@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 package org.apache.kafka.clients.consumer;
-
+//rf
 import static org.apache.kafka.clients.consumer.StickyAssignor.serializeTopicPartitionAssignment;
 import static org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.DEFAULT_GENERATION;
 import static org.junit.jupiter.api.Assertions.assertEquals;
