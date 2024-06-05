@@ -38,6 +38,7 @@ public class ApiVersions {
     public synchronized void update(String nodeId, NodeApiVersions nodeApiVersions) {
         this.nodeApiVersions.put(nodeId, nodeApiVersions);
         this.maxUsableProduceMagic = computeMaxUsableProduceMagic();
+        // deferd
     }
 
     public synchronized void remove(String nodeId) {
